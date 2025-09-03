@@ -58,6 +58,7 @@ const Register = () => {
           </div>
 
           {error && <div className="error-message">{error}</div>}
+          }
 
           <form onSubmit={handleSubmit} className="auth-form">
             <div className="form-group">
